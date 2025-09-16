@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "idorg-uri-copy-button",
+  "stanza:label": "Identifiers.org URI copy button",
+  "stanza:definition": "",
+  "stanza:license": "MIT",
+  "stanza:author": "Renato Juaçaba Neto",
+  "stanza:contributor": [],
+  "stanza:created": "2025-09-15",
+  "stanza:updated": "2025-09-15",
+  "stanza:parameter": [
+    {
+      "stanza:key": "button-label",
+      "stanza:type": "text",
+      "stanza:example": "Identifiers.org URI",
+      "stanza:description": "What to use as label for the button.",
+      "stanza:required": true
+    }, {
+      "stanza:key": "button-icon",
+      "stanza:type": "boolean",
+      "stanza:example": true,
+      "stanza:default": false,
+      "stanza:description": "Whether to have the icon on the button label.",
+      "stanza:required": false
+    }, {
+      "stanza:key": "button-classes",
+      "stanza:type": "text",
+      "stanza:example": "btn btn-primary",
+      "stanza:default": "",
+      "stanza:description": "Classes to inject on the generated button.",
+      "stanza:required": false
+    }, {
+      "stanza:key": "url-overwrite",
+      "stanza:type": "text",
+      "stanza:default": null,
+      "stanza:example": "http://purl.uniprot.org/uniprot/P12345",
+      "stanza:description": "Overwrite browser location with URL. By default, the widget uses the browser location where the widget is loaded. Use this if the browser URL is different from the URL pattern in the identifiers.org registry.",
+      "stanza:required": false
+    }, {
+      "stanza:key": "uri-preload",
+      "stanza:type": "boolean",
+      "stanza:default": "false",
+      "stanza:description": "Whether to compute the identifiers.org URI on load instead of on the first click.",
+      "stanza:required": false
+    }, {
+      "stanza:key": "flash-duration",
+      "stanza:type": "number",
+      "stanza:example": 750,
+      "stanza:default": 750,
+      "stanza:description": "Duration a flash message is shown on the button. In milliseconds.",
+      "stanza:required": false
+    }, {
+      "stanza:key": "css-additional_stylesheet_urls",
+      "stanza:type": "string",
+      "stanza:default": null,
+      "stanza:example": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css",
+      "stanza:description": "Semicolon separated list of CSS stylesheets to add to widget. Useful with the button-classes parameter.",
+      "stanza:required": false
+    }
+    
+  ],
+  "stanza:menu-placement": "bottom-right",
+  "stanza:style": [],
+  "stanza:incomingEvent": [],
+  "stanza:outgoingEvent": []
+}

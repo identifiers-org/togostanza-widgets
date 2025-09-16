@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "idorg-curie",
+  "stanza:label": "Identifiers.org CURIE",
+  "stanza:definition": "",
+  "stanza:license": "MIT",
+  "stanza:author": "Renato Juaçaba Neto",
+  "stanza:contributor": [],
+  "stanza:created": "2025-09-15",
+  "stanza:updated": "2025-09-15",
+  "stanza:parameter": [
+    {
+      "stanza:key": "curie",
+      "stanza:type": "string",
+      "stanza:example": "uniprot:P12345",
+      "stanza:description": "Curie to resolve",
+      "stanza:required": true
+    }, {
+      "stanza:key": "hide_on_fail",
+      "stanza:type": "boolean",
+      "stanza:default": "false",
+      "stanza:description": "Hide resolution icon on fail",
+      "stanza:required": false
+    }, {
+      "stanza:key": "classes-wrapper",
+      "stanza:type": "text",
+      "stanza:default": "",
+      "stanza:example": "border px-3 pt-3 pb-1 rounded bg-primary-subtle rounded-pill",
+      "stanza:description": "CSS classes to apply to wrapper HTML element",
+      "stanza:required": false
+    }, {
+      "stanza:key": "classes-text",
+      "stanza:type": "text",
+      "stanza:default": "",
+      "stanza:example": "text-dark",
+      "stanza:description": "CSS classes to apply to curie text element",
+      "stanza:required": false
+    }, {
+      "stanza:key": "classes-icon",
+      "stanza:type": "text",
+      "stanza:default": "",
+      "stanza:example": "mt-2",
+      "stanza:description": "CSS classes to apply to icon element",
+      "stanza:required": false
+    }, {
+      "stanza:key": "emit_click_events",
+      "stanza:type": "boolean",
+      "stanza:default": "false",
+      "stanza:description": "Stops handling clicks directly to emit DOM events allowing more control on click handling. See outgoing events for details.",
+      "stanza:required": false
+    }, {
+      "stanza:key": "css-additional_stylesheet_urls",
+      "stanza:type": "string",
+      "stanza:default": "",
+      "stanza:example": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css",
+      "stanza:description": "Semicolon separated list of CSS stylesheets to add to widget. Useful with the button-classes parameter.",
+      "stanza:required": false
+    }
+  ],
+  "stanza:menu-placement": "bottom-right",
+  "stanza:style": [
+    {
+      "stanza:key": "--togostanza-font-size",
+      "stanza:type": "text",
+      "stanza:default": "1.25rem",
+      "stanza:description": "Font size (with css unit) for widget"
+    }, {
+      "stanza:key": "--togostanza-status_icon-size_percentage",
+      "stanza:type": "single-choice",
+      "stanza:choice": [
+        "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%"
+      ],
+      "stanza:default": "50%",
+      "stanza:description": "Percentage of icon used to display resolution state"
+    }, {
+      "stanza:key": "--togostanza-status_icon-font_size_mult",
+      "stanza:type": "decimal",
+      "stanza:default": "1.25",
+      "stanza:description": "Multiplier of font size for icon."
+    }
+  ],
+  "stanza:incomingEvent": [],
+  "stanza:outgoingEvent": [
+    {
+      "stanza:key": "idorgClickOnFailedResolution",
+      "stanza:description": "Event that fires user clicks on icon of failed resolution. Requires the 'emit_click_events' parameter."
+    },
+    {
+      "stanza:key": "idorgClickOnSuccessfullResolution",
+      "stanza:description": "Event that fires user clicks on icon of successfull resolution. Requires the 'emit_click_events' parameter."
+    }
+  ]
+}

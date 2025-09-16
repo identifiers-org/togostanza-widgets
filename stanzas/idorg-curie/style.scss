@@ -1,0 +1,50 @@
+// Load the repository-wide global style here. The actual file is located at ../common.scss for details.
+@use '@/common.scss';
+
+.curie {
+  font-size: var(--togostanza-font-size);
+}
+
+.resolution-icon {
+  position: relative;
+  height: calc(var(--togostanza-status_icon-font_size_mult) * var(--togostanza-font-size));
+  width: calc(var(--togostanza-status_icon-font_size_mult) * var(--togostanza-font-size));
+  display: inline-block;
+  background-image: url(https://raw.githubusercontent.com/identifiers-org/monorepo/refs/heads/master/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  &::after {
+    position: absolute;
+    height: var(--togostanza-status_icon-size_percentage);
+    width: var(--togostanza-status_icon-size_percentage);
+    left: calc(100% - var(--togostanza-status_icon-size_percentage));
+    top: calc(100% - var(--togostanza-status_icon-size_percentage));
+    content: '';
+    background-size: cover;
+  }
+  &.loading::after {
+    cursor: wait;
+    animation: spin 1.5s linear infinite;
+    // FIXME find transparent background spinner img
+    background-image: url(https://img.favpng.com/13/14/24/scalable-vector-graphics-computer-icons-spinner-font-awesome-svg-animation-png-favpng-zPJM8aYZg2PzPULMYFxJNx0ZF.jpg);
+  }
+  &.success {
+    cursor: pointer;
+    &::after {
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Checkmark.svg/2304px-Checkmark.svg.png);
+    }
+  }
+  &.fail {
+    cursor: not-allowed;
+    &::after {
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/OOjs_UI_icon_error-destructive.svg/2048px-OOjs_UI_icon_error-destructive.svg.png);
+    }
+  }
+}
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
