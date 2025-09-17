@@ -4,7 +4,7 @@
   },
   "@id": "idorg-resolution-bar",
   "stanza:label": "Identifiers.org Resolution Bar",
-  "stanza:definition": "This widget works in the same way as the resolution search bar in the homepage of identifiers.org. Additional customization and styling options are available.",
+  "stanza:definition": "This widget works in the same way as the resolution search bar in the homepage of identifiers.org.",
   "stanza:license": "MIT",
   "stanza:author": "Renato Juaçaba Neto",
   "stanza:contributor": [],
