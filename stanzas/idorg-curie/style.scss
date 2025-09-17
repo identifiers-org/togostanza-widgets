@@ -10,7 +10,7 @@
   height: calc(var(--togostanza-status_icon-font_size_mult) * var(--togostanza-font-size));
   width: calc(var(--togostanza-status_icon-font_size_mult) * var(--togostanza-font-size));
   display: inline-block;
-  background-image: url(/idorg-curie/assets/logo.svg);
+  background-image: url(//docs.identifiers.org/togostanza-widgets/idorg-curie/assets/logo.svg);
   background-repeat: no-repeat;
   background-size: cover;
   &::after {
@@ -25,18 +25,18 @@
   &.loading::after {
     cursor: wait;
     animation: spin 1.5s linear infinite;
-    background-image: url(/idorg-curie/assets/loading.png);
+    background-image: url(//docs.identifiers.org/togostanza-widgets/idorg-curie/assets/loading.png);
   }
   &.success {
     cursor: pointer;
     &::after {
-      background-image: url(/idorg-curie/assets/checkmark.png);
+      background-image: url(//docs.identifiers.org/togostanza-widgets/idorg-curie/assets/checkmark.png);
     }
   }
   &.fail {
     cursor: not-allowed;
     &::after {
-      background-image: url(/idorg-curie/assets/error.png);
+      background-image: url(//docs.identifiers.org/togostanza-widgets/idorg-curie/assets/error.png);
     }
   }
 }

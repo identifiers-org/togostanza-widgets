@@ -26,7 +26,7 @@ export default class Curie extends Stanza {
 
     this.resolutionIconElement.addEventListener('click', this.onIconClicked);
 
-    fetch (`http://resolver.api.identifiers.org/${curie}`)
+    fetch (`//resolver.api.identifiers.org/${curie}`)
         .then(this.onFetchSuccess, this.onFetchFail)
         .finally(() => this.resolutionIconElement.classList.remove("loading"));
   }
