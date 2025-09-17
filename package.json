@@ -8,10 +8,7 @@
   "homepage": "http://docs.identifiers.org/togostanza-widgets/",
   "version": "0.0.2",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/identifiers-org/togostanza-widgets.git"
-  },
+  "repository": "https://github.com/identifiers-org/togostanza-widgets",
   "scripts": {
     "start": "togostanza s"
   },
