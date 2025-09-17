@@ -2,7 +2,7 @@ import Stanza from 'togostanza/stanza';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Button, { ButtonProps } from './Button';
-import { appendCustomCss } from "togostanza-utils";
+import { addCustomCss, clearCustomCss } from '../../lib/customCssUtils';
 import { toCamelCase } from '../../lib/toCamelCase';
 
 export default class IdorgUriCopyButton extends Stanza {
@@ -17,9 +17,10 @@ export default class IdorgUriCopyButton extends Stanza {
         <Button {...props} />
     );
 
+    clearCustomCss(this);
     const stylesheets = props.cssAdditionalStylesheetUrls.split(';');
     for (const sheet of stylesheets) {
-      appendCustomCss(this, sheet);
+      addCustomCss(this, sheet);
     }
   }
 
@@ -30,9 +31,10 @@ export default class IdorgUriCopyButton extends Stanza {
         <Button {...props} />
     );
 
+    clearCustomCss(this);
     const stylesheets = props.cssAdditionalStylesheetUrls.split(';');
     for (const sheet of stylesheets) {
-      appendCustomCss(this, sheet);
+      addCustomCss(this, sheet);
     }
   }
 }

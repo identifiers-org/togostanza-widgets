@@ -238,7 +238,7 @@ class SearchSuggestions extends React.Component<SearchSuggestionsProps, SearchSu
 
     return (
       <div className="inline-search-container">
-        <button type='button' onClick={closeSuggestions} className='closeBttn' title='Close suggestion box'>
+        <button type='button' onClick={closeSuggestions} className='closeBttn btn btn-link clear-link' title='Close suggestion box'>
           <i className="icon icon-common icon-close"></i>
         </button>
         <div className="hints-box px-3">
@@ -280,7 +280,7 @@ class SearchSuggestions extends React.Component<SearchSuggestionsProps, SearchSu
                             }}
                           >
                             <span
-                              className={`badge ${selectedNamespace === index ? 'badge-secondary border border-dark' : 'badge-dark border border-secondary'} font-weight-normal`}>
+                              className={`badge ${selectedNamespace === index ? 'bg-secondary border border-dark' : 'bg-dark border border-secondary'} font-weight-normal`}>
                                 {namespace.prefix}
                             </span>
 
@@ -297,7 +297,7 @@ class SearchSuggestions extends React.Component<SearchSuggestionsProps, SearchSu
                         </div>
                         <div className="col col-1">
                           <button
-                            className={`ms-auto btn btn-link ${selectedNamespace === index ? 'text-white' : ''}`}
+                            className={`ms-auto btn btn-link clear-link ${selectedNamespace === index ? 'text-white' : ''}`}
                             onClick={() => {
                               this.handleSuggestionLinkClick(namespace.prefix)
                             }}

@@ -1,17 +1,19 @@
-$danger: #dc3545;
-$dark: #292929;
-$light: #eaeaea;
-$info: #96a291;
-$primary:#0086b4;
+
+$primary: #0086b4;
 $secondary: #e36109;
 $success: #5e801a;
+$info: #96a291;
 $warning: #e2ad00;
+$danger: #dc3545;
+$light: #eaeaea;
+$dark: #292929;
+@import '../../node_modules/bootstrap/scss/bootstrap';
 
-$enable-rounded: false;
-$border-radius: 0;
-
-@use '@/common.scss';
-@use 'sass:map';
+* {
+  --bs-primary-rgb: #{to-rgb(#0086b4)};
+  --bs-link-color-rgb: #{to-rgb(#0086b4)};
+  --bs-secondary-rgb: #{to-rgb(#e36109)};
+}
 
 // Bigger container
 $container-max-widths: (
@@ -20,6 +22,10 @@ $container-max-widths: (
         lg: 960px,
         xl: 1480px
 ) !default;
+
+togostanza-menu .menu {
+  z-index: 3;
+}
 
 body {
   background: #0086b4 !important;
@@ -50,7 +56,7 @@ body {
 
 .inline-search-container {
   background-color: #fff;
-  margin-top: 2.6rem;
+  margin-top: 1rem;
   width: 100%;
 }
 
@@ -97,7 +103,7 @@ body {
 }
 
 .closeBttn {
-  position: absolute;
+  position: absolute !important;
   right: .25rem;
 }
 

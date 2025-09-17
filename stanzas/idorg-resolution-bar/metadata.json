@@ -4,7 +4,7 @@
   },
   "@id": "idorg-resolution-bar",
   "stanza:label": "Identifiers.org Resolution Bar",
-  "stanza:definition": "THIS IS A WORK IN PROGRESS.",
+  "stanza:definition": "THIS IS A WORK IN PROGRESS. This widget works in the same way as the resolution search bar in the homepage of identifiers.org. Additional customization and styling options are available.",
   "stanza:license": "MIT",
   "stanza:author": "Renato Juaçaba Neto",
   "stanza:contributor": [],
@@ -38,9 +38,14 @@
       "stanza:example": "input-group",
       "stanza:description": "css classes for wrapper div",
       "stanza:required": false
+    }, {
+      "stanza:key": "css-additional_stylesheet_urls",
+      "stanza:type": "string",
+      "stanza:description": "Semicolon separated list of CSS stylesheets to add to widget. Useful with the button-classes parameter.",
+      "stanza:required": false
     }
   ],
-  "stanza:menu-placement": "bottom-right",
+  "stanza:menu-placement": "top-right",
   "stanza:style": [
     {
       "stanza:key": "--greeting-color",

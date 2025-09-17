@@ -163,7 +163,7 @@ class Search extends React.Component<SearchProps, SearchState> {
             />
             <div className="input-group-append">
               <button
-                className="btn btn-primary search-button"
+                className="btn btn-primary text-white search-button"
                 onFocus={this.handleFocusShowSuggestions}
                 onClick={this.handleButtonClick}
                 disabled={!isSearchValid}

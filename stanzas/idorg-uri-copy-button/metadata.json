@@ -4,7 +4,7 @@
   },
   "@id": "idorg-uri-copy-button",
   "stanza:label": "Identifiers.org URI copy button",
-  "stanza:definition": "",
+  "stanza:definition": "Button widget to be embedded into pages to copy relevant identifiers.org URIs to the user's clipboard. The resolution service is used to converge URLs into identifiers.org URIs. By default, it converges the current window location URL to an identifiers.org URI, but an overwrite option is available. Additional options for styling and customization are available.",
   "stanza:license": "MIT",
   "stanza:author": "Renato Juaçaba Neto",
   "stanza:contributor": [],
@@ -61,7 +61,7 @@
     }
     
   ],
-  "stanza:menu-placement": "bottom-right",
+  "stanza:menu-placement": "none",
   "stanza:style": [],
   "stanza:incomingEvent": [],
   "stanza:outgoingEvent": []

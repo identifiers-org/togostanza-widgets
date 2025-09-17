@@ -1,5 +1,5 @@
 import Stanza from 'togostanza/stanza';
-import { appendCustomCss } from "togostanza-utils";
+import { addCustomCss, clearCustomCss } from '../../lib/customCssUtils';
 import { toCamelCase } from '../../lib/toCamelCase';
 
 export default class Curie extends Stanza {
@@ -7,9 +7,10 @@ export default class Curie extends Stanza {
     this.emitEvents = this.params['emit_click_events'];
     this.hideOnFail = this.params['hide_on_fail'];
 
+    clearCustomCss(this);
     const stylesheets = this.params['css-additional_stylesheet_urls'].split(';');
     for (const sheet of stylesheets) {
-      appendCustomCss(this, sheet);
+      addCustomCss(this, sheet);
     }
 
     this.renderTemplate(

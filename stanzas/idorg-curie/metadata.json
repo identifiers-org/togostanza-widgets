@@ -4,7 +4,7 @@
   },
   "@id": "idorg-curie",
   "stanza:label": "Identifiers.org CURIE",
-  "stanza:definition": "",
+  "stanza:definition": "Widget to validate and resolve CURIE identifiers using the identifiers.org resolution service. A little icon seal appears next to CURIEs to indicate its valid or invalid according to identifiers.org. Optionally, the icon can show only when valid. Additional options for styling and click handling are available.",
   "stanza:license": "MIT",
   "stanza:author": "Renato Juaçaba Neto",
   "stanza:contributor": [],
@@ -59,7 +59,7 @@
       "stanza:required": false
     }
   ],
-  "stanza:menu-placement": "bottom-right",
+  "stanza:menu-placement": "none",
   "stanza:style": [
     {
       "stanza:key": "--togostanza-font-size",

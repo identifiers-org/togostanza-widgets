@@ -3,33 +3,53 @@ import ReactDOM from 'react-dom/client';
 import Stanza from "togostanza/stanza";
 import Search from './components/Search';
 import { toCamelCase } from '../../lib/toCamelCase';
+import { addCustomCss, clearCustomCss } from '../../lib/customCssUtils';
 
+import * as bootstrap from 'bootstrap';
 
 export default class ResolutionBar extends Stanza {
-  readonly reactDomRoot;
-
-  constructor(
-    element: HTMLElement,
-    metadata: any,
-    templates: Array<[string, TemplateSpecification]>,
-    url: string
-  ) {
-    super(element, metadata, templates, url);
-    const reactRootElem = this.root.querySelector("main") as HTMLElement;
-    this.reactDomRoot = ReactDOM.createRoot(reactRootElem);
-  }
+  reactDomRoot: ReactDOM.Root;
 
   async render() {
-    const props = toCamelCase(this.params);
+    const props = toCamelCase(this.params) as any;
+    
+    const reactRootElem = this.root.querySelector("main") as HTMLElement;
+    this.reactDomRoot = ReactDOM.createRoot(reactRootElem);
     this.reactDomRoot.render(
         <Search onButtonClick={alert} buttonCaption='Click!' placeholderCaption='Placeholder' />
     );
+  
+    clearCustomCss(this);
+    addCustomCss(this, "/idorg-resolution-bar/assets/EBI-Icon-fonts/fonts.css");
   }
 
   handleAttributeChange() {
-    const props = toCamelCase(this.params);
-    this.reactDomRoot.render(
+    const props = toCamelCase(this.params) as any;
+    this.reactDomRoot?.render(
         <Search onButtonClick={alert} buttonCaption='Click!' placeholderCaption='Placeholder' />
     );
+    
+    clearCustomCss(this);
+    addCustomCss(this, "/idorg-resolution-bar/assets/EBI-Icon-fonts/fonts.css");
   }
+
+  // addFonts() {
+  //   const fonts = [
+  //     "EBI-Conceptual",
+  //     "EBI-Species",
+  //     "EBI-Common",
+  //     "EBI-FileFormats",
+  //     "EBI-Chemistry",
+  //     "EBI-Functional",
+  //     "EBI-Generic",
+  //     "EBI-SocialMedia",
+  //   ];
+  //   for (const font of fonts) {
+  //     const fontFace = new FontFace(font, `url(/idorg-resolution-bar/assets/EBI-Icon-fonts/${font}/fonts/${font}.woff)`, {
+  //       style: "normal",
+  //       weight: "normal"
+  //     });
+  //     fontFace.load().then(loadedFace => this.root.fonts.add(loadedFace));
+  //   }
+  // }
 }

@@ -1,18 +1,27 @@
 {
   "name": "idorg-stanza-widgets",
-  "version": "0.0.1",
+  "description": "Widgets for identifiers.org based on togostanza",
+  "author": {
+    "name": "Renato Juacaba Neto",
+    "url": "https://github.com/renatocjn"
+  },
+  "homepage": "http://docs.identifiers.org/togostanza-widgets/",
+  "version": "0.0.2",
   "license": "MIT",
-  "repository": "",
+  "repository": "github:identifiers-org/togostanza-widgets",
+  "scripts": {
+    "start": "togostanza s"
+  },
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "EBI-Icon-fonts": "^1.3.1",
     "lodash.camelcase": "^4.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "togostanza": "github:togostanza/togostanza",
-    "togostanza-utils": "github:togostanza/togostanza-utils"
+    "togostanza": "github:togostanza/togostanza"
   },
   "engines": {
-    "node": ">=24"
+    "node": ">=22"
   },
   "private": true,
   "devDependencies": {

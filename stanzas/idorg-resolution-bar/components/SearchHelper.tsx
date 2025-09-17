@@ -143,7 +143,7 @@ class SearchHelper extends React.Component<SearchHelperProps> {
                       <td className="p-0 text-block">
                         <small>
                           <a href={idorgURI} target='_blank'>{idorgURI}</a>
-                          <button className='text-muted ms-1' title='copy to clipboard'
+                          <button className='text-muted ms-1 btn btn-link clear-link' title='copy to clipboard'
                             onClick={(ev: any) => this.copyToClipboard(idorgURI, ev)}>
                             <i className="icon icon-common icon-copy"></i>
                           </button>
