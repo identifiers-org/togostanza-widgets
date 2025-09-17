@@ -45,13 +45,13 @@ class SearchHelper extends React.Component<SearchHelperProps> {
             {(() => {
               switch (evaluation) {
                 case SearchStates.VALID_CURIE:
-                  return <i className="icon icon-common icon-check-circle size-200 text-success mr-2"/>
+                  return <i className="icon icon-common icon-check-circle size-200 text-success me-2"/>
                 case SearchStates.NO_CURIE: case SearchStates.QUERYING_NAMESPACES:
-                  return <i className="icon icon-common icon-info size-200 text-primary mr-2"/>
+                  return <i className="icon icon-common icon-info size-200 text-primary me-2"/>
                 case SearchStates.PREFIX_ONLY: case SearchStates.PREFIX_WITH_COLON:
-                  return <i className="icon icon-common icon-exclamation-triangle size-200 text-warning mr-2"/>
+                  return <i className="icon icon-common icon-exclamation-triangle size-200 text-warning me-2"/>
                 case SearchStates.INVALID_PREFIX: case SearchStates.INVALID_LOCAL_ID:
-                  return <i className="icon icon-common icon-times-circle size-200 text-danger mr-2"/>
+                  return <i className="icon icon-common icon-times-circle size-200 text-danger me-2"/>
               }
             })()}
             {(() => {
@@ -143,7 +143,7 @@ class SearchHelper extends React.Component<SearchHelperProps> {
                       <td className="p-0 text-block">
                         <small>
                           <a href={idorgURI} target='_blank'>{idorgURI}</a>
-                          <button className='text-muted ms-1 btn btn-link clear-link' title='copy to clipboard'
+                          <button className='text-muted ms-1 btn btn-link clear-link p-0' title='copy to clipboard'
                             onClick={(ev: any) => this.copyToClipboard(idorgURI, ev)}>
                             <i className="icon icon-common icon-copy"></i>
                           </button>
