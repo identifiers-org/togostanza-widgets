@@ -1,0 +1,351 @@
+/*
+For each individual EBI-*.css font file as made by grunt-webfont:
+https://github.com/sapegin/grunt-webfont#template
+*/
+
+/* Icons */
+
+
+.icon.icon-generic.icon-accommodation:before {
+	content:"\61";
+}
+
+
+.icon.icon-generic.icon-alert:before {
+	content:"\6c";
+}
+
+
+.icon.icon-generic.icon-alumni:before {
+	content:"\41";
+}
+
+
+.icon.icon-generic.icon-announcement:before {
+	content:"\55";
+}
+
+
+.icon.icon-generic.icon-basket:before {
+	content:"\62";
+}
+
+
+.icon.icon-generic.icon-beta:before {
+	content:"\3e";
+}
+
+
+.icon.icon-generic.icon-bike:before {
+	content:"\33";
+}
+
+
+.icon.icon-generic.icon-biotech:before {
+	content:"\42";
+}
+
+
+.icon.icon-generic.icon-bus:before {
+	content:"\31";
+}
+
+
+.icon.icon-generic.icon-calendar:before {
+	content:"\72";
+}
+
+
+.icon.icon-generic.icon-camera:before {
+	content:"\21";
+}
+
+
+.icon.icon-generic.icon-car:before {
+	content:"\32";
+}
+
+
+.icon.icon-generic.icon-careers:before {
+	content:"\63";
+}
+
+
+.icon.icon-generic.icon-classification:before {
+	content:"\65";
+}
+
+
+.icon.icon-generic.icon-clock:before {
+	content:"\7b";
+}
+
+
+.icon.icon-generic.icon-contact:before {
+	content:"\43";
+}
+
+
+.icon.icon-generic.icon-crosslink:before {
+	content:"\64";
+}
+
+
+.icon.icon-generic.icon-database:before {
+	content:"\44";
+}
+
+
+.icon.icon-generic.icon-discuss:before {
+	content:"\5c";
+}
+
+
+.icon.icon-generic.icon-documentation:before {
+	content:"\3b";
+}
+
+
+.icon.icon-generic.icon-drug:before {
+	content:"\75";
+}
+
+
+.icon.icon-generic.icon-elixir:before {
+	content:"\25";
+}
+
+
+.icon.icon-generic.icon-email:before {
+	content:"\45";
+}
+
+
+.icon.icon-generic.icon-embl:before {
+	content:"\26";
+}
+
+
+.icon.icon-generic.icon-external-link:before {
+	content:"\78";
+}
+
+
+.icon.icon-generic.icon-external-systems:before {
+	content:"\79";
+}
+
+
+.icon.icon-generic.icon-face-to-face:before {
+	content:"\66";
+}
+
+
+.icon.icon-generic.icon-find-us:before {
+	content:"\5d";
+}
+
+
+.icon.icon-generic.icon-funding:before {
+	content:"\46";
+}
+
+
+.icon.icon-generic.icon-graph:before {
+	content:"\67";
+}
+
+
+.icon.icon-generic.icon-group:before {
+	content:"\7d";
+}
+
+
+.icon.icon-generic.icon-gtls:before {
+	content:"\47";
+}
+
+
+.icon.icon-generic.icon-health:before {
+	content:"\68";
+}
+
+
+.icon.icon-generic.icon-help:before {
+	content:"\3f";
+}
+
+
+.icon.icon-generic.icon-home:before {
+	content:"\48";
+}
+
+
+.icon.icon-generic.icon-industry:before {
+	content:"\49";
+}
+
+
+.icon.icon-generic.icon-info:before {
+	content:"\69";
+}
+
+
+.icon.icon-generic.icon-link:before {
+	content:"\4c";
+}
+
+
+.icon.icon-generic.icon-location:before {
+	content:"\5b";
+}
+
+
+.icon.icon-generic.icon-lovedata:before {
+	content:"\6f";
+}
+
+
+.icon.icon-generic.icon-mailing-list:before {
+	content:"\6d";
+}
+
+
+.icon.icon-generic.icon-math:before {
+	content:"\76";
+}
+
+
+.icon.icon-generic.icon-meet-us:before {
+	content:"\4d";
+}
+
+
+.icon.icon-generic.icon-mobile-device:before {
+	content:"\2f";
+}
+
+
+.icon.icon-generic.icon-new:before {
+	content:"\3c";
+}
+
+
+.icon.icon-generic.icon-newcomers:before {
+	content:"\6e";
+}
+
+
+.icon.icon-generic.icon-news:before {
+	content:"\4e";
+}
+
+
+.icon.icon-generic.icon-nutraceuticals:before {
+	content:"\22";
+}
+
+
+.icon.icon-generic.icon-open-day:before {
+	content:"\4f";
+}
+
+
+.icon.icon-generic.icon-piechart:before {
+	content:"\70";
+}
+
+
+.icon.icon-generic.icon-plane:before {
+	content:"\34";
+}
+
+
+.icon.icon-generic.icon-publication:before {
+	content:"\50";
+}
+
+
+.icon.icon-generic.icon-research:before {
+	content:"\29";
+}
+
+
+.icon.icon-generic.icon-resource:before {
+	content:"\52";
+}
+
+
+.icon.icon-generic.icon-reviewed-data:before {
+	content:"\71";
+}
+
+
+.icon.icon-generic.icon-services:before {
+	content:"\28";
+}
+
+
+.icon.icon-generic.icon-steps:before {
+	content:"\23";
+}
+
+
+.icon.icon-generic.icon-support:before {
+	content:"\73";
+}
+
+
+.icon.icon-generic.icon-systems:before {
+	content:"\53";
+}
+
+
+.icon.icon-generic.icon-terms:before {
+	content:"\f101";
+}
+
+
+.icon.icon-generic.icon-test:before {
+	content:"\30";
+}
+
+
+.icon.icon-generic.icon-text-mining:before {
+	content:"\58";
+}
+
+
+.icon.icon-generic.icon-toolkit:before {
+	content:"\3a";
+}
+
+
+.icon.icon-generic.icon-train:before {
+	content:"\37";
+}
+
+
+.icon.icon-generic.icon-training:before {
+	content:"\54";
+}
+
+
+.icon.icon-generic.icon-tutorial:before {
+	content:"\74";
+}
+
+
+.icon.icon-generic.icon-unreviewed-data:before {
+	content:"\51";
+}
+
+
+.icon.icon-generic.icon-video:before {
+	content:"\56";
+}
+
+
+.icon.icon-generic.icon-walk:before {
+	content:"\36";
+}

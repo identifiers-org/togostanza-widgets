@@ -1,0 +1,101 @@
+/*
+For each individual EBI-*.css font file as made by grunt-webfont:
+https://github.com/sapegin/grunt-webfont#template
+*/
+
+/* Icons */
+
+
+.icon.icon-socialmedia.icon-android:before {
+	content:"\61";
+}
+
+
+.icon.icon-socialmedia.icon-apple:before {
+	content:"\41";
+}
+
+
+.icon.icon-socialmedia.icon-blogger:before {
+	content:"\42";
+}
+
+
+.icon.icon-socialmedia.icon-facebook:before {
+	content:"\46";
+}
+
+
+.icon.icon-socialmedia.icon-flickr:before {
+	content:"\66";
+}
+
+
+.icon.icon-socialmedia.icon-github:before {
+	content:"\67";
+}
+
+
+.icon.icon-socialmedia.icon-googleplus:before {
+	content:"\47";
+}
+
+
+.icon.icon-socialmedia.icon-linkedin:before {
+	content:"\4c";
+}
+
+
+.icon.icon-socialmedia.icon-linux:before {
+	content:"\58";
+}
+
+
+.icon.icon-socialmedia.icon-orcid:before {
+	content:"\4f";
+}
+
+
+.icon.icon-socialmedia.icon-rss:before {
+	content:"\52";
+}
+
+
+.icon.icon-socialmedia.icon-skype:before {
+	content:"\73";
+}
+
+
+.icon.icon-socialmedia.icon-slideshare:before {
+	content:"\53";
+}
+
+
+.icon.icon-socialmedia.icon-twitter:before {
+	content:"\54";
+}
+
+
+.icon.icon-socialmedia.icon-vimeo:before {
+	content:"\56";
+}
+
+
+.icon.icon-socialmedia.icon-weibo:before {
+	content:"\57";
+}
+
+
+.icon.icon-socialmedia.icon-windows:before {
+	content:"\77";
+}
+
+
+.icon.icon-socialmedia.icon-wordpress:before {
+	content:"\50";
+}
+
+
+.icon.icon-socialmedia.icon-youtube:before {
+	content:"\59";
+}

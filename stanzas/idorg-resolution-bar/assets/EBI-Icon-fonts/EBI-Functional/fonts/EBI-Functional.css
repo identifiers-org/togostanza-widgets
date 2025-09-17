@@ -1,0 +1,326 @@
+/*
+For each individual EBI-*.css font file as made by grunt-webfont:
+https://github.com/sapegin/grunt-webfont#template
+*/
+
+/* Icons */
+
+
+.icon.icon-functional.icon-add-job:before {
+	content:"\29";
+}
+
+
+.icon.icon-functional.icon-add-user:before {
+	content:"\37";
+}
+
+
+.icon.icon-functional.icon-add:before {
+	content:"\2b";
+}
+
+
+.icon.icon-functional.icon-align:before {
+	content:"\69";
+}
+
+
+.icon.icon-functional.icon-analyse-graph:before {
+	content:"\7a";
+}
+
+
+.icon.icon-functional.icon-analyse-percent_0:before {
+	content:"\42";
+}
+
+
+.icon.icon-functional.icon-analyse-percent_100:before {
+	content:"\45";
+}
+
+
+.icon.icon-functional.icon-analyse-percent_40:before {
+	content:"\43";
+}
+
+
+.icon.icon-functional.icon-analyse:before {
+	content:"\41";
+}
+
+
+.icon.icon-functional.icon-approve:before {
+	content:"\2f";
+}
+
+
+.icon.icon-functional.icon-approved-job:before {
+	content:"\28";
+}
+
+
+.icon.icon-functional.icon-attach:before {
+	content:"\61";
+}
+
+
+.icon.icon-functional.icon-browse:before {
+	content:"\62";
+}
+
+
+.icon.icon-functional.icon-close:before {
+	content:"\78";
+}
+
+
+.icon.icon-functional.icon-collapse-closed:before {
+	content:"\39";
+}
+
+
+.icon.icon-functional.icon-collapse-open:before {
+	content:"\38";
+}
+
+
+.icon.icon-functional.icon-collapse:before {
+	content:"\77";
+}
+
+
+.icon.icon-functional.icon-compare:before {
+	content:"\4f";
+}
+
+
+.icon.icon-functional.icon-crop:before {
+	content:"\5c";
+}
+
+
+.icon.icon-functional.icon-cut:before {
+	content:"\63";
+}
+
+
+.icon.icon-functional.icon-database-submit:before {
+	content:"\44";
+}
+
+
+.icon.icon-functional.icon-delete:before {
+	content:"\64";
+}
+
+
+.icon.icon-functional.icon-down-page:before {
+	content:"\2b07";
+}
+
+
+.icon.icon-functional.icon-download:before {
+	content:"\3d";
+}
+
+
+.icon.icon-functional.icon-edit-user:before {
+	content:"\35";
+}
+
+
+.icon.icon-functional.icon-edit:before {
+	content:"\65";
+}
+
+
+.icon.icon-functional.icon-expand:before {
+	content:"\75";
+}
+
+
+.icon.icon-functional.icon-filter:before {
+	content:"\66";
+}
+
+
+.icon.icon-functional.icon-first-page:before {
+	content:"\5b";
+}
+
+
+.icon.icon-functional.icon-fullscreen:before {
+	content:"\46";
+}
+
+
+.icon.icon-functional.icon-hierarchy:before {
+	content:"\68";
+}
+
+
+.icon.icon-functional.icon-last-page:before {
+	content:"\5d";
+}
+
+
+.icon.icon-functional.icon-like:before {
+	content:"\6b";
+}
+
+
+.icon.icon-functional.icon-lock:before {
+	content:"\4c";
+}
+
+
+.icon.icon-functional.icon-login:before {
+	content:"\6c";
+}
+
+
+.icon.icon-functional.icon-mapping:before {
+	content:"\30";
+}
+
+
+.icon.icon-functional.icon-menu:before {
+	content:"\4d";
+}
+
+
+.icon.icon-functional.icon-move:before {
+	content:"\6d";
+}
+
+
+.icon.icon-functional.icon-next-page:before {
+	content:"\3e";
+}
+
+
+.icon.icon-functional.icon-play:before {
+	content:"\76";
+}
+
+
+.icon.icon-functional.icon-previous-page:before {
+	content:"\3c";
+}
+
+
+.icon.icon-functional.icon-print:before {
+	content:"\50";
+}
+
+
+.icon.icon-functional.icon-redo:before {
+	content:"\7d";
+}
+
+
+.icon.icon-functional.icon-refresh:before {
+	content:"\52";
+}
+
+
+.icon.icon-functional.icon-remove-user:before {
+	content:"\36";
+}
+
+
+.icon.icon-functional.icon-remove:before {
+	content:"\2d";
+}
+
+
+.icon.icon-functional.icon-save:before {
+	content:"\53";
+}
+
+
+.icon.icon-functional.icon-scaleable:before {
+	content:"\59";
+}
+
+
+.icon.icon-functional.icon-search-document:before {
+	content:"\6a";
+}
+
+
+.icon.icon-functional.icon-search:before {
+	content:"\31";
+}
+
+
+.icon.icon-functional.icon-send:before {
+	content:"\6e";
+}
+
+
+.icon.icon-functional.icon-settings:before {
+	content:"\73";
+}
+
+
+.icon.icon-functional.icon-share:before {
+	content:"\72";
+}
+
+
+.icon.icon-functional.icon-stop:before {
+	content:"\6f";
+}
+
+
+.icon.icon-functional.icon-submit:before {
+	content:"\5f";
+}
+
+
+.icon.icon-functional.icon-target:before {
+	content:"\54";
+}
+
+
+.icon.icon-functional.icon-tool:before {
+	content:"\74";
+}
+
+
+.icon.icon-functional.icon-unassigned-job:before {
+	content:"\2a";
+}
+
+
+.icon.icon-functional.icon-undo:before {
+	content:"\7b";
+}
+
+
+.icon.icon-functional.icon-unlock:before {
+	content:"\55";
+}
+
+
+.icon.icon-functional.icon-up-page:before {
+	content:"\2b06";
+}
+
+
+.icon.icon-functional.icon-view:before {
+	content:"\34";
+}
+
+
+.icon.icon-functional.icon-zoom-in:before {
+	content:"\33";
+}
+
+
+.icon.icon-functional.icon-zoom-out:before {
+	content:"\32";
+}

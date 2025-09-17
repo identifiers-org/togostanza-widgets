@@ -1,0 +1,56 @@
+/*
+For each individual EBI-*.css font file as made by grunt-webfont:
+https://github.com/sapegin/grunt-webfont#template
+*/
+
+/* Icons */
+
+
+.icon.icon-conceptual.icon-chemical:before {
+	content:"\62";
+}
+
+
+.icon.icon-conceptual.icon-cross-domain:before {
+	content:"\63";
+}
+
+
+.icon.icon-conceptual.icon-dna:before {
+	content:"\64";
+}
+
+
+.icon.icon-conceptual.icon-expression:before {
+	content:"\67";
+}
+
+
+.icon.icon-conceptual.icon-literature:before {
+	content:"\6c";
+}
+
+
+.icon.icon-conceptual.icon-ontology:before {
+	content:"\6f";
+}
+
+
+.icon.icon-conceptual.icon-proteins:before {
+	content:"\50";
+}
+
+
+.icon.icon-conceptual.icon-structures-3d:before {
+	content:"\53";
+}
+
+
+.icon.icon-conceptual.icon-structures:before {
+	content:"\73";
+}
+
+
+.icon.icon-conceptual.icon-systems:before {
+	content:"\79";
+}

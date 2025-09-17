@@ -1,0 +1,26 @@
+/*
+For each individual EBI-*.css font file as made by grunt-webfont:
+https://github.com/sapegin/grunt-webfont#template
+*/
+
+/* Icons */
+
+
+.icon.icon-chemistry.icon-direction_left:before {
+	content:"\6c";
+}
+
+
+.icon.icon-chemistry.icon-direction_reversible:before {
+	content:"\52";
+}
+
+
+.icon.icon-chemistry.icon-direction_right:before {
+	content:"\72";
+}
+
+
+.icon.icon-chemistry.icon-direction_unknown:before {
+	content:"\55";
+}
