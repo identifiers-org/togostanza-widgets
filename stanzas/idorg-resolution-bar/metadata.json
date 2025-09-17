@@ -12,59 +12,22 @@
   "stanza:updated": "2025-09-15",
   "stanza:parameter": [
     {
-      "stanza:key": "classes-label",
+      "stanza:key": "text-button",
       "stanza:type": "string",
-      "stanza:example": "input-group-text",
-      "stanza:description": "css classes for label",
-      "stanza:required": false
+      "stanza:example": "Resolve",
+      "stanza:description": "Text inside button",
+      "stanza:required": true
     },
     {
-      "stanza:key": "classes-input",
+      "stanza:key": "text-placeholder",
       "stanza:type": "string",
-      "stanza:example": "form-control",
-      "stanza:description": "css classes for input",
-      "stanza:required": false
-    },
-    {
-      "stanza:key": "classes-button",
-      "stanza:type": "string",
-      "stanza:example": "btn btn-primary",
-      "stanza:description": "css classes for button",
-      "stanza:required": false
-    },
-    {
-      "stanza:key": "classes-wrapper",
-      "stanza:type": "string",
-      "stanza:example": "input-group",
-      "stanza:description": "css classes for wrapper div",
-      "stanza:required": false
-    }, {
-      "stanza:key": "css-additional_stylesheet_urls",
-      "stanza:type": "string",
-      "stanza:description": "Semicolon separated list of CSS stylesheets to add to widget. Useful with the button-classes parameter.",
-      "stanza:required": false
+      "stanza:example": "Input CURIE identifier here",
+      "stanza:description": "Placeholder text on input box",
+      "stanza:required": true
     }
   ],
   "stanza:menu-placement": "top-right",
-  "stanza:style": [
-    {
-      "stanza:key": "--greeting-color",
-      "stanza:type": "color",
-      "stanza:default": "#eb7900",
-      "stanza:description": "text color of greeting"
-    },
-    {
-      "stanza:key": "--greeting-align",
-      "stanza:type": "single-choice",
-      "stanza:choice": [
-        "left",
-        "center",
-        "right"
-      ],
-      "stanza:default": "center",
-      "stanza:description": "text align of greeting"
-    }
-  ],
+  "stanza:style": [],
   "stanza:incomingEvent": [],
   "stanza:outgoingEvent": []
 }

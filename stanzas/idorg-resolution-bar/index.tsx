@@ -16,7 +16,7 @@ export default class ResolutionBar extends Stanza {
     const reactRootElem = this.root.querySelector("main") as HTMLElement;
     this.reactDomRoot = ReactDOM.createRoot(reactRootElem);
     this.reactDomRoot.render(
-        <Search onButtonClick={alert} buttonCaption='Click!' placeholderCaption='Placeholder' />
+        <Search onButtonClick={alert} {...props} />
     );
   
     clearCustomCss(this);
@@ -26,30 +26,10 @@ export default class ResolutionBar extends Stanza {
   handleAttributeChange() {
     const props = toCamelCase(this.params) as any;
     this.reactDomRoot?.render(
-        <Search onButtonClick={alert} buttonCaption='Click!' placeholderCaption='Placeholder' />
+        <Search onButtonClick={alert} {...props} />
     );
     
     clearCustomCss(this);
     addCustomCss(this, "/idorg-resolution-bar/assets/EBI-Icon-fonts/fonts.css");
   }
-
-  // addFonts() {
-  //   const fonts = [
-  //     "EBI-Conceptual",
-  //     "EBI-Species",
-  //     "EBI-Common",
-  //     "EBI-FileFormats",
-  //     "EBI-Chemistry",
-  //     "EBI-Functional",
-  //     "EBI-Generic",
-  //     "EBI-SocialMedia",
-  //   ];
-  //   for (const font of fonts) {
-  //     const fontFace = new FontFace(font, `url(/idorg-resolution-bar/assets/EBI-Icon-fonts/${font}/fonts/${font}.woff)`, {
-  //       style: "normal",
-  //       weight: "normal"
-  //     });
-  //     fontFace.load().then(loadedFace => this.root.fonts.add(loadedFace));
-  //   }
-  // }
 }

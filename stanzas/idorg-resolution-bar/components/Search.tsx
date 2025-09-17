@@ -6,8 +6,8 @@ import config from './config';
 
 interface SearchProps {
   onButtonClick: (query: string | undefined) => void
-  buttonCaption: string
-  placeholderCaption: string
+  textButton: string
+  textPlaceholder: string
 }
 
 interface SearchState {
@@ -129,7 +129,7 @@ class Search extends React.Component<SearchProps, SearchState> {
 
   render() {
     const {
-      props: { buttonCaption, placeholderCaption },
+      props: { textButton, textPlaceholder },
       state: { query, showSuggestions, isSearchValid }
     } = this;
 
@@ -157,7 +157,7 @@ class Search extends React.Component<SearchProps, SearchState> {
               onChange={this.handleChange}
               onKeyDown={this.handleKeyDown}
               onFocus={this.handleFocusShowSuggestions}
-              placeholder={placeholderCaption}
+              placeholder={textPlaceholder}
               ref={this.search}
               value={query}
             />
@@ -168,7 +168,7 @@ class Search extends React.Component<SearchProps, SearchState> {
                 onClick={this.handleButtonClick}
                 disabled={!isSearchValid}
               >
-                {buttonCaption}
+                {textButton}
               </button>
             </div>
             { config.showSearchSuggestions && showSuggestions &&
