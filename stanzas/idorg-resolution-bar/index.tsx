@@ -20,7 +20,7 @@ export default class ResolutionBar extends Stanza {
     );
   
     clearCustomCss(this);
-    addCustomCss(this, "/idorg-resolution-bar/assets/EBI-Icon-fonts/fonts.css");
+    addCustomCss(this, "//docs.identifiers.org/togostanza-widgets/idorg-resolution-bar/assets/EBI-Icon-fonts/fonts.css");
   }
 
   handleAttributeChange() {
@@ -30,6 +30,6 @@ export default class ResolutionBar extends Stanza {
     );
     
     clearCustomCss(this);
-    addCustomCss(this, "/idorg-resolution-bar/assets/EBI-Icon-fonts/fonts.css");
+    addCustomCss(this, "//docs.identifiers.org/togostanza-widgets/idorg-resolution-bar/assets/EBI-Icon-fonts/fonts.css");
   }
 }
