@@ -21,6 +21,7 @@
     top: calc(100% - var(--togostanza-status_icon-size_percentage));
     content: '';
     background-size: cover;
+    margin-left: .4rem;
   }
   &.loading::after {
     cursor: wait;
@@ -30,7 +31,7 @@
   &.success {
     cursor: pointer;
     &::after {
-      background-image: url(//docs.identifiers.org/togostanza-widgets/idorg-curie/assets/checkmark.png);
+      background-image: url(//docs.identifiers.org/togostanza-widgets/idorg-curie/assets/checkmark.svg);
     }
   }
   &.fail {

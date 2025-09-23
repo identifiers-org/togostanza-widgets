@@ -10,7 +10,8 @@
   "license": "MIT",
   "repository": "https://github.com/identifiers-org/togostanza-widgets",
   "scripts": {
-    "start": "togostanza s"
+    "start": "togostanza s",
+    "build": "togostanza b"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#43a047"
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="checkmark4.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.04"
+     inkscape:cx="399.51923"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1375"
+     inkscape:window-x="1530"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1" />
+  <g
+     data-name="Layer 2"
+     id="g2">
+    <g
+       data-name="checkmark-square-2"
+       id="g1">
+      <rect
+         width="24"
+         height="24"
+         transform="rotate(180 12 12)"
+         opacity="0"
+         id="rect1" />
+      <rect
+         style="fill:#ffffff;stroke-width:0.03;fill-opacity:1"
+         id="rect2"
+         width="11.798077"
+         height="10.701923"
+         x="6.0288458"
+         y="6.6057692" />
+      <path
+         d="M18 3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3zm-1.7 6.61l-4.57 6a1 1 0 0 1-.79.39 1 1 0 0 1-.79-.38l-2.44-3.11a1 1 0 0 1 1.58-1.23l1.63 2.08 3.78-5a1 1 0 1 1 1.6 1.22z"
+         id="path1" />
+    </g>
+  </g>
+</svg>

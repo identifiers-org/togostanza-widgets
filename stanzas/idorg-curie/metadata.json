@@ -72,7 +72,7 @@
       "stanza:choice": [
         "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%"
       ],
-      "stanza:default": "50%",
+      "stanza:default": "70%",
       "stanza:description": "Percentage of icon used to display resolution state"
     }, {
       "stanza:key": "--togostanza-status_icon-font_size_mult",
