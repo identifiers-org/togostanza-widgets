@@ -21,7 +21,7 @@
       "stanza:key": "hide_on_fail",
       "stanza:type": "boolean",
       "stanza:default": "false",
-      "stanza:description": "Hide resolution icon on fail",
+      "stanza:description": "Hide resolution icon on fail; this is useful if you don't want error icons on the host page",
       "stanza:required": false
     }, {
       "stanza:key": "classes-wrapper",
@@ -48,14 +48,14 @@
       "stanza:key": "emit_click_events",
       "stanza:type": "boolean",
       "stanza:default": "false",
-      "stanza:description": "Stops handling clicks directly to emit DOM events allowing more control on click handling. See outgoing events for details.",
+      "stanza:description": "Stops handling clicks directly to emit DOM events allowing the host page to handle clicks; see outgoing events for details",
       "stanza:required": false
     }, {
       "stanza:key": "css-additional_stylesheet_urls",
       "stanza:type": "string",
       "stanza:default": "",
       "stanza:example": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css",
-      "stanza:description": "Semicolon separated list of CSS stylesheets to add to widget. Useful with the button-classes parameter.",
+      "stanza:description": "Semicolon separated list of CSS stylesheets to add to widget; useful with the classes parameters",
       "stanza:required": false
     }
   ],
